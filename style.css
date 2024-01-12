@@ -84,6 +84,7 @@
 .container {
     display: flex;
     justify-content: center;
+    column-gap: 90px;
 }
 
 .content {
@@ -92,10 +93,13 @@
     align-items: center;
     overflow: auto;
     flex-wrap: wrap;
+    row-gap: 0px;
 }
 
 .wrapper {
-   width: 350px;
+   display: flex;
+   flex-direction: column;
+    width: 250px;
 } 
 
 .box {
