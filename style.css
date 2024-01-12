@@ -7,8 +7,9 @@
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: min-content;
-    overflow: scroll;
+    overflow: auto;
+    height: 450px;
+    object-fit: cover;
 }
 
 .header1 {
@@ -57,6 +58,7 @@
     height: 100%;
     justify-content: center;
     margin-top: 50px;
+    object-fit: cover;
 }
 
 .presentacion {
@@ -67,7 +69,8 @@
 
 .fotogato {
     height: 80%;
-    width: 20%;
+    width: 300px;
+    flex: 0 2 auto;
 }
 
 #titu {
@@ -86,7 +89,7 @@
     justify-content: center;
     column-gap: 90px;
     overflow: auto;
-    max-width: 100vw;
+    min-width: 100vw;
     flex-wrap: wrap;
 }
 
@@ -121,4 +124,35 @@
 .wrapper p {
     width: 200px;
     margin-left: 20px;
+}
+
+.contentt {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 350px;
+    flex-direction: column;
+}
+
+.quote p {
+    width: 300px;
+}
+
+.quote span {
+    position: relative;
+    right: -100px;
+}
+
+.reasons {
+    display: flex;
+}
+
+.reasons ul li {
+    width: 300px;
 }
